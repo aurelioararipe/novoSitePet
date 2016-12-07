@@ -1,0 +1,415 @@
+<!-- site bootstrap modelo: http://www.w3schools.com/bootstrap/bootstrap_theme_band.asp -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Pet Computação UECE</title>
+
+  <link rel="icon" href="Media/LogoPET.png">
+  <!--<link rel="stylesheet" type="text/css" href="Css/reset.css">-->
+  
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+
+	<link href="css/petCss.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <!--<link href="Css/petCss.css" rel="stylesheet" type="text/css" />-->
+    
+</head>
+<body>
+
+	<header>
+  	<div class="container-fluid">
+    	<div id="logoCabecalho">
+      	<div id="logoCabecalhoImgpet">
+          	<img src="Media/LogoPET.png" alt="PET Computação Uece" width="107px" height="77px"/>
+          </div>
+          <div id="logoCabecalhoTexto">
+          	Programa de Educação Tutorial Computação <span class="laranja">UECE</span>
+          </div>
+      </div>
+  	</div>
+  	
+    
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <p class="navbar-text">Bem vindo à Pet Computação Uece</p>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="petIndex.php">Início</a></li>
+                <li><a href="petIndex.php#atividades">Atividades</a></li>
+                <li><a href="petIndex.php#atividades">Integrantes</a></li>
+                <li><a href="petIndex.php#sobre">Sobre</a></li>
+                <li><a href="petIndex.php#rodape">Contato</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Administrador</a></li>
+            </ul>
+        </div>
+    	
+    </nav>
+        
+  </header> <!-- FIM CABEÇALHO -->
+
+  <main>
+    <aside>
+     
+      <div class="w3-content w3-display-container">
+      
+              <img class="mySlides" src="media/slide1.jpg">
+              <img class="mySlides" src="media/slide2.jpg">
+              <img class="mySlides" src="media/slide3.jpg">
+              <img class="mySlides" src="Media/secomp.fw.png">
+              <div class="w3-row-padding w3-section">
+                <div class="w3-col">
+                  <img class="demo w3-border w3-hover-shadow" 
+                  src="media/slide1.jpg" onclick="currentDiv(1) ">
+                </div>
+                <div class="w3-col s4">
+                  <img class="demo w3-border w3-hover-shadow"
+                  src="media/slide2.jpg" onclick="currentDiv(2)">
+                </div>
+                <div class="w3-col s4">
+                  <img class="demo w3-border w3-hover-shadow" 
+                  src="media/slide3.jpg" onclick="currentDiv(3)">
+                </div>
+                <div class="w3-col s4">
+                  <img class="demo w3-border w3-hover-shadow" 
+                  src="Media/secomp.fw.png" onclick="currentDiv(4)">
+                </div>
+             </div>
+            
+          </div>
+
+          <script src="js/sliders.js"> </script>
+
+    </aside> <!-- FIM NOVIDADES -->
+
+    <aside>
+      
+      <div class="container text-center">
+        
+        <h3>Atividades</h3>
+        <p><em>Conheça melhor nossas atividades realizadas em 2016</em></p>
+        <br>
+        <div class="row">
+          <div class="col-sm-4">
+            <p><strong>Pesquisa</strong></p><br>
+            <img src="media/robotica.jpg" width="100%" alt="Random Name">
+          </div>
+
+          <div class="col-sm-4">
+            <p><strong>Ensino</strong></p><br>
+            <img src="media/tutoriaBanner.jpg" width="100%" alt="Random Name">
+          </div>
+
+          <div class="col-sm-4">
+            <p><strong>Extensão</strong></p><br>
+            <img src="media/extensao.fw.png" width="100%" alt="Random Name">
+          </div>
+
+        </div>
+
+      </div>
+
+    </aside> <!-- FIM ATIVIDADES -->
+
+    <aside>
+      <div class="container text-center">
+        <div class="row">
+          <h3>Integrantes</h3>
+          <p><em>Conheça melhor nossos atuais integrantes (Clique no integrante para obter informações)</em></p>
+          <hr>
+          <br>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="#demo0" data-toggle="collapse">
+              <img src="media/integrantes/aur.png" id="tutor" class="img-circle integrante" alt="Aurelio Pet Computação UECE Integrante">
+            </a>
+            <div id="demo0" class="collapse">
+              <p class="petiano-nome">Professor Jerfesson Teixeira</p>
+              <p class="petiano-data-entrada">Tutor Desde: xxx/yy</p>
+              <p class="petiano-curriculo"><a href="#">Currículo</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="#demo1" data-toggle="collapse">
+              <img src="media/integrantes/aur.png" class="img-circle integrante" alt="Aurelio Pet Computação UECE Integrante">
+            </a>
+            <div id="demo1" class="collapse">
+              <ul class="list-group">
+                <li class="list-group-item petiano-nome">Aurelio Araripe</li>
+                <li class="list-group-item petiano-data-entrada">Petiano Desde: dez/15</li> 
+                <li class="list-group-item petiano-comissao">Comissão: Eventos</li> 
+                <li class="list-group-item petiano-vinculo">Vínculo: Bolsista</li>
+                <li class="list-group-item petiano-tutoria">Tutoria: Calculo I</li> 
+                <li class="list-group-item petiano-curriculo"><a href="#">Currículo</a></li> 
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <a href="#demo2" data-toggle="collapse">
+              <img src="media/integrantes/leo.png" class="img-circle integrante" alt="Aurelio Pet Computação UECE Integrante">
+            </a>
+            <div id="demo2" class="collapse">
+              <ul class="list-group">
+                <li class="list-group-item petiano-nome">Francisco Leonardo</li>
+                <li class="list-group-item petiano-data-entrada">Petiano Desde: xxx/yy</li> 
+                <li class="list-group-item petiano-comissao">Comissão: Secretaria</li> 
+                <li class="list-group-item petiano-vinculo">Vínculo: Bolsista</li>
+                <li class="list-group-item petiano-tutoria">Tutoria: Calculo I</li> 
+                <li class="list-group-item petiano-curriculo"><a href="#">Currículo</a></li> 
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <a href="#demo3" data-toggle="collapse">
+              <img src="media/integrantes/iury.png" class="img-circle integrante" alt="Aurelio Pet Computação UECE Integrante">
+            </a>
+            <div id="demo3" class="collapse">
+              <ul class="list-group">
+                <li class="list-group-item petiano-nome">Iury Medeiros</li>
+                <li class="list-group-item petiano-data-entrada">Petiano Desde: xxx/yy</li> 
+                <li class="list-group-item petiano-comissao">Comissão: Coordenação</li> 
+                <li class="list-group-item petiano-vinculo">Vínculo: Bolsista</li>
+                <li class="list-group-item petiano-tutoria">Tutoria: Geometria Analítica</li> 
+                <li class="list-group-item petiano-curriculo"><a href="#">Currículo</a></li> 
+              </ul>
+            </div>
+          </div>
+        </div> <!-- Fim row -->
+
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="#demo4" data-toggle="collapse">
+              <img src="media/integrantes/aur.png" class="img-circle integrante" alt="Aurelio Pet Computação UECE Integrante">
+            </a>
+            <div id="demo4" class="collapse">
+              <ul class="list-group">
+                <li class="list-group-item petiano-nome">Aurelio Araripe</li>
+                <li class="list-group-item petiano-data-entrada">Petiano Desde: dez/15</li> 
+                <li class="list-group-item petiano-comissao">Comissão: Eventos</li> 
+                <li class="list-group-item petiano-vinculo">Vínculo: Bolsista</li>
+                <li class="list-group-item petiano-tutoria">Tutoria: Calculo I</li> 
+                <li class="list-group-item petiano-curriculo"><a href="#">Currículo</a></li> 
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <a href="#demo5" data-toggle="collapse">
+              <img src="media/integrantes/leo.png" class="img-circle integrante" alt="Aurelio Pet Computação UECE Integrante">
+            </a>
+            <div id="demo5" class="collapse">
+              <ul class="list-group">
+                <li class="list-group-item petiano-nome">Francisco Leonardo</li>
+                <li class="list-group-item petiano-data-entrada">Petiano Desde: xxx/yy</li> 
+                <li class="list-group-item petiano-comissao">Comissão: Secretaria</li> 
+                <li class="list-group-item petiano-vinculo">Vínculo: Bolsista</li>
+                <li class="list-group-item petiano-tutoria">Tutoria: Calculo I</li> 
+                <li class="list-group-item petiano-curriculo"><a href="#">Currículo</a></li> 
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <a href="#demo6" data-toggle="collapse">
+              <img src="media/integrantes/iury.png" class="img-circle integrante" alt="Aurelio Pet Computação UECE Integrante">
+            </a>
+            <div id="demo6" class="collapse">
+              <ul class="list-group">
+                <li class="list-group-item petiano-nome">Iury Medeiros</li>
+                <li class="list-group-item petiano-data-entrada">Petiano Desde: xxx/yy</li> 
+                <li class="list-group-item petiano-comissao">Comissão: Coordenação</li> 
+                <li class="list-group-item petiano-vinculo">Vínculo: Bolsista</li>
+                <li class="list-group-item petiano-tutoria">Tutoria: Geometria Analítica</li> 
+                <li class="list-group-item petiano-curriculo"><a href="#">Currículo</a></li> 
+              </ul>
+            </div>
+          </div>
+        </div> <!-- Fim row -->
+
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="#demo7" data-toggle="collapse">
+              <img src="media/integrantes/thiago.png" class="img-circle integrante" width="629px" height="777" alt="Aurelio Pet Computação UECE Integrante">
+            </a>
+            <div id="demo7" class="collapse">
+              <ul class="list-group">
+                <li class="list-group-item petiano-nome">Thiago Oliveira</li>
+                <li class="list-group-item petiano-data-entrada">Petiano Desde: xxx/yy</li> 
+                <li class="list-group-item petiano-comissao">Comissão: Secretaria</li> 
+                <li class="list-group-item petiano-vinculo">Vínculo: Bolsista</li>
+                <li class="list-group-item petiano-tutoria">Tutoria: Calculo I</li> 
+                <li class="list-group-item petiano-curriculo"><a href="#">Currículo</a></li> 
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <a href="#demo8" data-toggle="collapse">
+              <img src="media/integrantes/leo.png" class="img-circle integrante" alt="Aurelio Pet Computação UECE Integrante">
+            </a>
+            <div id="demo8" class="collapse">
+              <ul class="list-group">
+                <li class="list-group-item petiano-nome">Francisco Leonardo</li>
+                <li class="list-group-item petiano-data-entrada">Petiano Desde: xxx/yy</li> 
+                <li class="list-group-item petiano-comissao">Comissão: Secretaria</li> 
+                <li class="list-group-item petiano-vinculo">Vínculo: Bolsista</li>
+                <li class="list-group-item petiano-tutoria">Tutoria: Calculo I</li> 
+                <li class="list-group-item petiano-curriculo"><a href="#">Currículo</a></li> 
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <a href="#demo9" data-toggle="collapse">
+              <img src="media/integrantes/iury.png" class="img-circle integrante" alt="Aurelio Pet Computação UECE Integrante">
+            </a>
+            <div id="demo9" class="collapse">
+              <ul class="list-group">
+                <li class="list-group-item petiano-nome">Iury Medeiros</li>
+                <li class="list-group-item petiano-data-entrada">Petiano Desde: xxx/yy</li> 
+                <li class="list-group-item petiano-comissao">Comissão: Coordenação</li> 
+                <li class="list-group-item petiano-vinculo">Vínculo: Bolsista</li>
+                <li class="list-group-item petiano-tutoria">Tutoria: Geometria Analítica</li> 
+                <li class="list-group-item petiano-curriculo"><a href="#">Currículo</a></li> 
+              </ul>
+            </div>
+          </div>
+        </div> <!-- Fim row -->
+
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="#demo10" data-toggle="collapse">
+              <img src="media/integrantes/aur.png" class="img-circle integrante" alt="Aurelio Pet Computação UECE Integrante">
+            </a>
+            <div id="demo10" class="collapse">
+              <ul class="list-group">
+                <li class="list-group-item petiano-nome">Aurelio Araripe</li>
+                <li class="list-group-item petiano-data-entrada">Petiano Desde: dez/15</li> 
+                <li class="list-group-item petiano-comissao">Comissão: Eventos</li> 
+                <li class="list-group-item petiano-vinculo">Vínculo: Bolsista</li>
+                <li class="list-group-item petiano-tutoria">Tutoria: Calculo I</li> 
+                <li class="list-group-item petiano-curriculo"><a href="#">Currículo</a></li> 
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <a href="#demo11" data-toggle="collapse">
+              <img src="media/integrantes/leo.png" class="img-circle integrante" alt="Aurelio Pet Computação UECE Integrante">
+            </a>
+            <div id="demo11" class="collapse">
+              <ul class="list-group">
+                <li class="list-group-item petiano-nome">Francisco Leonardo</li>
+                <li class="list-group-item petiano-data-entrada">Petiano Desde: xxx/yy</li> 
+                <li class="list-group-item petiano-comissao">Comissão: Secretaria</li> 
+                <li class="list-group-item petiano-vinculo">Vínculo: Bolsista</li>
+                <li class="list-group-item petiano-tutoria">Tutoria: Calculo I</li> 
+                <li class="list-group-item petiano-curriculo"><a href="#">Currículo</a></li> 
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <a href="#demo12" data-toggle="collapse">
+              <img src="media/integrantes/iury.png" class="img-circle integrante" alt="Aurelio Pet Computação UECE Integrante">
+            </a>
+            <div id="demo12" class="collapse">
+              <ul class="list-group">
+                <li class="list-group-item petiano-nome">Iury Medeiros</li>
+                <li class="list-group-item petiano-data-entrada">Petiano Desde: xxx/yy</li> 
+                <li class="list-group-item petiano-comissao">Comissão: Coordenação</li> 
+                <li class="list-group-item petiano-vinculo">Vínculo: Bolsista</li>
+                <li class="list-group-item petiano-tutoria">Tutoria: Geometria Analítica</li> 
+                <li class="list-group-item petiano-curriculo"><a href="#">Currículo</a></li> 
+              </ul>
+            </div>
+          </div>
+        </div> <!-- Fim row -->
+
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="#demo13" data-toggle="collapse">
+              <img src="media/integrantes/aur.png" class="img-circle integrante" alt="Aurelio Pet Computação UECE Integrante">
+            </a>
+            <div id="demo13" class="collapse">
+              <ul class="list-group">
+                <li class="list-group-item petiano-nome">Aurelio Araripe</li>
+                <li class="list-group-item petiano-data-entrada">Petiano Desde: dez/15</li> 
+                <li class="list-group-item petiano-comissao">Comissão: Eventos</li> 
+                <li class="list-group-item petiano-vinculo">Vínculo: Bolsista</li>
+                <li class="list-group-item petiano-tutoria">Tutoria: Calculo I</li> 
+                <li class="list-group-item petiano-curriculo"><a href="#">Currículo</a></li> 
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <a href="#demo14" data-toggle="collapse">
+              <img src="media/integrantes/leo.png" class="img-circle integrante" alt="Aurelio Pet Computação UECE Integrante">
+            </a>
+            <div id="demo14" class="collapse">
+              <ul class="list-group">
+                <li class="list-group-item petiano-nome">Francisco Leonardo</li>
+                <li class="list-group-item petiano-data-entrada">Petiano Desde: xxx/yy</li> 
+                <li class="list-group-item petiano-comissao">Comissão: Secretaria</li> 
+                <li class="list-group-item petiano-vinculo">Vínculo: Bolsista</li>
+                <li class="list-group-item petiano-tutoria">Tutoria: Calculo I</li> 
+                <li class="list-group-item petiano-curriculo"><a href="#">Currículo</a></li> 
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <a href="#demo15" data-toggle="collapse">
+              <img src="media/integrantes/iury.png" class="img-circle integrante" alt="Aurelio Pet Computação UECE Integrante">
+            </a>
+            <div id="demo15" class="collapse">
+              <ul class="list-group">
+                <li class="list-group-item petiano-nome">Iury Medeiros</li>
+                <li class="list-group-item petiano-data-entrada">Petiano Desde: xxx/yy</li> 
+                <li class="list-group-item petiano-comissao">Comissão: Coordenação</li> 
+                <li class="list-group-item petiano-vinculo">Vínculo: Bolsista</li>
+                <li class="list-group-item petiano-tutoria">Tutoria: Geometria Analítica</li> 
+                <li class="list-group-item petiano-curriculo"><a href="#">Currículo</a></li> 
+              </ul>
+            </div>
+          </div>
+        </div> <!-- Fim row -->
+
+      </div>
+      
+    </aside> <!-- FIM INTEGRANTES -->
+
+    <aside id="sobre">
+      <div class="container-fluid text-center">
+        <div class="col-sm-8">
+          <div id="sobreFotos">
+            teste
+          </div>
+        </div>
+        <div class="col-sm-4">
+          
+        </div>
+      </div>
+    </aside> <!-- FIM SOBRE -->
+
+  </main>
+    
+
+<!-- SLIDERS NOVO -->
+
+
+</body>
+</html>
